@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  gap: 10px;
+}
+
+.question {
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  background-color: antiquewhite;
+}
+
+.answers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.ansA,
+.ansB,
+.ansC,
+.ansD {
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  background-color: rgb(241, 240, 237);
+}
